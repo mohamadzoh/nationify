@@ -11,7 +11,7 @@ Add `nationify` as a dependency in your `Cargo.toml`:
 
 ```toml
 [dependencies]
-nationify = "0.1.0"
+nationify = "0.1.1"
 ```
 
 ---
