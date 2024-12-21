@@ -11,7 +11,7 @@ Add `nationify` as a dependency in your `Cargo.toml`:
 
 ```toml
 [dependencies]
-nationify = "0.1.1"
+nationify = "0.1.2"
 ```
 
 ---
@@ -183,4 +183,4 @@ Rusty Rails is a larger project aiming to bridge the gap between Rust and Ruby/R
 
 ### Contributing
 
-Contributions to the Phonelib library are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve this library.
+Contributions to the Nationify library are welcome! Feel free to open issues, submit pull requests, or provide feedback to help improve this library.
