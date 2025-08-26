@@ -2,6 +2,7 @@
 
 /// Geographic coordinates.
 #[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Geo {
     /// The latitude of the geographic point.
     pub latitude: f64,
@@ -21,6 +22,7 @@ pub struct Geo {
 
 /// Geographic bounding box.
 #[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Bounds {
     /// The northeast corner of the bounding box.
     pub northeast: LatLng,
@@ -30,6 +32,7 @@ pub struct Bounds {
 
 /// Geographic coordinates.
 #[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct LatLng {
     /// The latitude of the geographic point.
     pub lat: f64,
@@ -39,6 +42,7 @@ pub struct LatLng {
 
 /// Country information.
 #[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
 pub struct Country {
     #[cfg(feature = "iso_code")]
     /// The ISO 3166-1 alpha-2 code of the country.

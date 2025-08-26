@@ -8,7 +8,15 @@ description = "A library that provide information about countries"
 license = "MIT"
 keywords = ["locale", "iso", "iso-3166", "countrycode", "region"]
 
+[build-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+phf_codegen = "0.11"
+
 [dependencies]
+phf = { version = "0.11", features = ["macros"], optional = true }
+serde = { version = "1.0", features = ["derive"], optional = true }
+serde_json = { version = "1.0", optional = true }
 
 [features]
 default = [
@@ -39,7 +47,15 @@ default = [
   "un_locode",
   "unofficial_names",
   "world_region",
+  "serde",
+  "phf"
 ]
+
+# Enables Serde serialization of definitions.
+serde = ["dep:serde", "dep:serde_json"]
+
+# PHF - Enables compile-time country lookup by ISO code.
+phf = ["dep:phf"]
 
 # The ISO 3166-1 alpha-2 code of the country.
 iso_code = []

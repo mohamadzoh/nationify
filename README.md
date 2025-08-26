@@ -18,8 +18,10 @@ nationify = "0.1.2"
 
 ## Crate Features
 
-The `nationify` crate provides the following features:
+The `nationify` crate provides the following features - by default all are enabled:
 
+- **serde** - Enables Serde serialization of definitions.
+- **phf** - Enables compile-time country lookup by ISO code.
 - **iso_code** - The ISO 3166-1 alpha-2 code of the country.
 - **alpha3** - The ISO 3166-1 alpha-3 code of the country.
 - **continent** - The continent the country is located in.
