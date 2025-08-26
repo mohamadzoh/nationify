@@ -53,6 +53,9 @@ pub struct Country {
     #[cfg(feature = "continent")]
     /// The continent the country is located in.
     pub continent: &'static str,
+    #[cfg(feature = "continent")]
+    /// The continent code.
+    pub continent_code: &'static str,
     #[cfg(feature = "country_code")]
     /// The country code.
     pub country_code: &'static str,

@@ -1,3 +1,4 @@
+use core::panic;
 use std::{env, fs, path::PathBuf};
 
 #[derive(Debug, serde::Deserialize)]
@@ -74,6 +75,19 @@ fn fmt_f64(v: f64) -> String {
     }
 }
 
+fn continent_code(continent: &str) -> &str {
+    match continent {
+        "Africa" => "AF",
+        "Antarctica" => "AN",
+        "Asia" => "AS",
+        "Europe" => "EU",
+        "North America" => "NA",
+        "Oceania" => "OC",
+        "South America" => "SA",
+        _ => panic!("Unknown continent: {}", continent),
+    }
+}
+
 fn main() {
     let out_dir = PathBuf::from(env::var("OUT_DIR").unwrap());
     let json_path = PathBuf::from("data/countries.json");
@@ -109,6 +123,10 @@ fn main() {
             && let Some(v) = &c.continent
         {
             out.push_str(&format!("        continent: \"{}\",\n", escape(v)));
+            out.push_str(&format!(
+                "        continent_code: \"{}\",\n",
+                escape(continent_code(v))
+            ));
         }
         if feature("country_code")
             && let Some(v) = &c.country_code

@@ -604,7 +604,7 @@
   {
     "iso_code": "AS",
     "alpha3": "ASM",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
@@ -735,7 +735,7 @@
   {
     "iso_code": "AU",
     "alpha3": "AUS",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "61",
     "currency_code": "AUD",
     "distance_unit": "KM",
@@ -2674,7 +2674,7 @@
   {
     "iso_code": "CK",
     "alpha3": "COK",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "682",
     "currency_code": "NZD",
     "distance_unit": "KM",
@@ -4264,7 +4264,7 @@
   {
     "iso_code": "FJ",
     "alpha3": "FJI",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "679",
     "currency_code": "FJD",
     "distance_unit": "KM",
@@ -4389,7 +4389,7 @@
   {
     "iso_code": "FM",
     "alpha3": "FSM",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "691",
     "currency_code": "USD",
     "distance_unit": "KM",
@@ -5531,7 +5531,7 @@
   {
     "iso_code": "GU",
     "alpha3": "GUM",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
@@ -7098,7 +7098,7 @@
   {
     "iso_code": "KI",
     "alpha3": "KIR",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "686",
     "currency_code": "AUD",
     "distance_unit": "KM",
@@ -8624,7 +8624,7 @@
   {
     "iso_code": "MH",
     "alpha3": "MHL",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "692",
     "currency_code": "USD",
     "distance_unit": "KM",
@@ -8991,7 +8991,7 @@
   {
     "iso_code": "MP",
     "alpha3": "MNP",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
@@ -9716,7 +9716,7 @@
   {
     "iso_code": "NC",
     "alpha3": "NCL",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "687",
     "currency_code": "XPF",
     "distance_unit": "KM",
@@ -9835,7 +9835,7 @@
   {
     "iso_code": "NF",
     "alpha3": "NFK",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "672",
     "currency_code": "AUD",
     "distance_unit": "KM",
@@ -10204,7 +10204,7 @@
   {
     "iso_code": "NR",
     "alpha3": "NRU",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "674",
     "currency_code": "AUD",
     "distance_unit": "KM",
@@ -10263,7 +10263,7 @@
   {
     "iso_code": "NU",
     "alpha3": "NIU",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "683",
     "currency_code": "NZD",
     "distance_unit": "KM",
@@ -10320,7 +10320,7 @@
   {
     "iso_code": "NZ",
     "alpha3": "NZL",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "64",
     "currency_code": "NZD",
     "distance_unit": "KM",
@@ -10559,7 +10559,7 @@
   {
     "iso_code": "PF",
     "alpha3": "PYF",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "689",
     "currency_code": "XPF",
     "distance_unit": "KM",
@@ -10620,7 +10620,7 @@
   {
     "iso_code": "PG",
     "alpha3": "PNG",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "675",
     "currency_code": "PGK",
     "distance_unit": "KM",
@@ -10927,7 +10927,7 @@
   {
     "iso_code": "PN",
     "alpha3": "PCN",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "64",
     "currency_code": "NZD",
     "distance_unit": "KM",
@@ -11170,7 +11170,7 @@
   {
     "iso_code": "PW",
     "alpha3": "PLW",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "680",
     "currency_code": "USD",
     "distance_unit": "KM",
@@ -11715,7 +11715,7 @@
   {
     "iso_code": "SB",
     "alpha3": "SLB",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "677",
     "currency_code": "SBD",
     "distance_unit": "KM",
@@ -13294,7 +13294,7 @@
   {
     "iso_code": "TK",
     "alpha3": "TKL",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "690",
     "currency_code": "NZD",
     "distance_unit": "KM",
@@ -13539,7 +13539,7 @@
   {
     "iso_code": "TO",
     "alpha3": "TON",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "676",
     "currency_code": "TOP",
     "distance_unit": "KM",
@@ -13722,7 +13722,7 @@
   {
     "iso_code": "TV",
     "alpha3": "TUV",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "688",
     "currency_code": "AUD",
     "distance_unit": "KM",
@@ -14025,7 +14025,7 @@
   {
     "iso_code": "UM",
     "alpha3": "UMI",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "KM",
@@ -14636,7 +14636,7 @@
   {
     "iso_code": "VU",
     "alpha3": "VUT",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "678",
     "currency_code": "VUV",
     "distance_unit": "KM",
@@ -14699,7 +14699,7 @@
   {
     "iso_code": "WF",
     "alpha3": "WLF",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "681",
     "currency_code": "XPF",
     "distance_unit": "KM",
@@ -14760,7 +14760,7 @@
   {
     "iso_code": "WS",
     "alpha3": "WSM",
-    "continent": "Australia",
+    "continent": "Oceania",
     "country_code": "685",
     "currency_code": "WST",
     "distance_unit": "MI",
