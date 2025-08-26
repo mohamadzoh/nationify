@@ -29,13 +29,13 @@ pub fn country_names() -> Vec<&'static str> {
 }
 
 #[cfg(all(feature = "phf", feature = "iso_code"))]
-/// Find a country by its ISO code.
+/// Find a country by its ISO code - using PHF for fast lookups.
 pub fn by_iso_code(code: &str) -> Option<&'static Country> {
     ISO_CODE_INDEX.get(code).map(|&i| &COUNTRIES[i])
 }
 
 #[cfg(all(feature = "iso_code", not(feature = "phf")))]
-/// Find a country by its ISO code.
+/// Find a country by its ISO code - using a linear search.
 pub fn by_iso_code(code: &str) -> Option<&'static Country> {
     COUNTRIES.iter().find(|country| country.iso_code == code)
 }
