@@ -6,6 +6,92 @@ authors = ["Mohamad Al Zohbie <alzoubi528@gmail.com>"]
 repository = "https://github.com/mohamadzoh/nationify"
 description = "A library that provide information about countries"
 license = "MIT"
-keywords = ["locale", "iso", "iso-3166", "countrycode","region"]
+keywords = ["locale", "iso", "iso-3166", "countrycode", "region"]
 
 [dependencies]
+
+[features]
+default = [
+  "iso_code",
+  "alpha3",
+  "continent",
+  "country_code",
+  "currency_code",
+  "distance_unit",
+  "gec",
+  "geo",
+  "international_prefix",
+  "ioc",
+  "iso_long_name",
+  "iso_short_name",
+  "languages_official",
+  "languages_spoken",
+  "national_destination_code_lengths",
+  "national_number_lengths",
+  "national_prefix",
+  "nationality",
+  "number",
+  "postal_code",
+  "postal_code_format",
+  "region",
+  "start_of_week",
+  "subregion",
+  "un_locode",
+  "unofficial_names",
+  "world_region",
+]
+
+# The ISO 3166-1 alpha-2 code of the country.
+iso_code = []
+# The ISO 3166-1 alpha-3 code of the country.
+alpha3 = []
+# The continent the country is located in.
+continent = []
+# The country code.
+country_code = []
+# The currency code used in the country.
+currency_code = []
+# The distance unit used in the country.
+distance_unit = []
+# The GEC (Geographic Encoding Class) code.
+gec = []
+# The geographic information.
+geo = []
+# The international dialing prefix.
+international_prefix = []
+# The IOC (International Olympic Committee) code.
+ioc = []
+# The long name of the country in ISO format.
+iso_long_name = []
+# The short name of the country in ISO format.
+iso_short_name = []
+# The official languages of the country.
+languages_official = []
+# The spoken languages in the country.
+languages_spoken = []
+# The national destination code lengths.
+national_destination_code_lengths = []
+# The national number lengths.
+national_number_lengths = []
+# The national prefix.
+national_prefix = []
+# The nationality.
+nationality = []
+# The country number.
+number = []
+# Whether the country has a postal code.
+postal_code = []
+# The postal code format.
+postal_code_format = []
+# The region the country is located in.
+region = []
+# The start of the week in the country.
+start_of_week = []
+# The subregion the country is located in.
+subregion = []
+# The UN/LOCODE of the country.
+un_locode = []
+# The unofficial names of the country.
+unofficial_names = []
+# The world region the country is located in.
+world_region = []
