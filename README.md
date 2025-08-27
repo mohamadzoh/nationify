@@ -16,9 +16,46 @@ nationify = "0.1.2"
 
 ---
 
+## Crate Features
+
+The `nationify` crate provides the following features - by default all are enabled:
+
+- **serde** - Enables Serde serialization of definitions.
+- **phf** - Enables compile-time country lookup by ISO code.
+- **iso_code** - The ISO 3166-1 alpha-2 code of the country.
+- **alpha3** - The ISO 3166-1 alpha-3 code of the country.
+- **continent** - The continent the country is located in.
+- **country_code** - The country code.
+- **currency_code** - The currency code used in the country.
+- **distance_unit** - The distance unit used in the country.
+- **gec** - The GEC (Geographic Encoding Class) code.
+- **geo** - The geographic information.
+- **international_prefix** - The international dialing prefix.
+- **ioc** - The IOC (International Olympic Committee) code.
+- **iso_long_name** - The long name of the country in ISO format.
+- **iso_short_name** - The short name of the country in ISO format.
+- **languages_official** - The official languages of the country.
+- **languages_spoken** - The spoken languages in the country.
+- **national_destination_code_lengths** - The national destination code lengths.
+- **national_number_lengths** - The national number lengths.
+- **national_prefix** - The national prefix.
+- **nationality** - The nationality.
+- **number** - The country number.
+- **postal_code** - Whether the country has a postal code.
+- **postal_code_format** - The postal code format.
+- **region** - The region the country is located in.
+- **start_of_week** - The start of the week in the country.
+- **subregion** - The subregion the country is located in.
+- **un_locode** - The UN/LOCODE of the country.
+- **unofficial_names** - The unofficial names of the country.
+- **world_region** - The world region the country is located in.
+
+---
+
 ## Features & Examples
 
 ### 1. Retrieve All ISO Codes
+
 Get a list of all country ISO codes.
 
 ```rust
@@ -33,6 +70,7 @@ fn main() {
 ---
 
 ### 2. Retrieve All Country Names
+
 Fetch all country names.
 
 ```rust
@@ -47,6 +85,7 @@ fn main() {
 ---
 
 ### 3. Search by ISO Code or Country Name
+
 Find a country by its ISO code or name.
 
 ```rust
@@ -66,6 +105,7 @@ fn main() {
 ---
 
 ### 4. Case-Insensitive Search
+
 Perform case-insensitive searches for countries.
 
 ```rust
@@ -81,6 +121,7 @@ fn main() {
 ---
 
 ### 5. Retrieve Continents, Regions, and Subregions
+
 Fetch a list of unique continents, regions, or subregions.
 
 ```rust
@@ -96,6 +137,7 @@ fn main() {
 ---
 
 ### 6. Filter by Region, Continent, or Subregion
+
 Filter countries by specific geographical areas.
 
 ```rust
@@ -116,6 +158,7 @@ fn main() {
 ---
 
 ### 7. Query by Languages
+
 Search countries based on official or spoken languages.
 
 ```rust
@@ -133,6 +176,7 @@ fn main() {
 ---
 
 ### 8. Additional Country Metadata
+
 Access detailed metadata for countries.
 
 ```rust
@@ -155,6 +199,7 @@ fn main() {
 ## Struct Definitions
 
 ### `Country`
+
 The `Country` struct provides comprehensive details for each country.
 
 ```rust
@@ -173,6 +218,7 @@ pub struct Country<'a> {
 ```
 
 ### `Geo` and `Bounds`
+
 Geographical data includes latitude, longitude, and boundary information.
 
 ---
