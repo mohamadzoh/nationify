@@ -26,6 +26,7 @@ default = [
   "country_code",
   "currency_code",
   "distance_unit",
+  "economic_unions",
   "gec",
   "geo",
   "international_prefix",
@@ -69,6 +70,8 @@ country_code = []
 currency_code = []
 # The distance unit used in the country.
 distance_unit = []
+# The economic unions the country is part of.
+economic_unions = []
 # The GEC (Geographic Encoding Class) code.
 gec = []
 # The geographic information.

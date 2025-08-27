@@ -10,6 +10,7 @@ struct RawCountry {
     country_code: Option<String>,
     currency_code: Option<String>,
     distance_unit: Option<String>,
+    economic_unions: Option<Vec<String>>,
     gec: Option<String>,
     geo: Option<RawGeo>,
     international_prefix: Option<String>,
@@ -142,6 +143,20 @@ fn main() {
             && let Some(v) = &c.distance_unit
         {
             out.push_str(&format!("        distance_unit: \"{}\",\n", escape(v)));
+        }
+
+        if feature("economic_unions") {
+            let list = c
+                .economic_unions
+                .as_ref()
+                .map(|v| {
+                    v.iter()
+                        .map(|s| format!("\"{}\"", escape(s)))
+                        .collect::<Vec<_>>()
+                        .join(", ")
+                })
+                .unwrap_or_default();
+            out.push_str(&format!("        economic_unions: &[{}],\n", list));
         }
 
         if feature("gec")

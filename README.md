@@ -28,6 +28,7 @@ The `nationify` crate provides the following features - by default all are enabl
 - **country_code** - The country code.
 - **currency_code** - The currency code used in the country.
 - **distance_unit** - The distance unit used in the country.
+- **economic_unions** - The economic unions the country is part of.
 - **gec** - The GEC (Geographic Encoding Class) code.
 - **geo** - The geographic information.
 - **international_prefix** - The international dialing prefix.
