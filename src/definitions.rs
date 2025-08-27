@@ -200,10 +200,16 @@ impl Country {
 
     #[cfg(feature = "economic_unions")]
     /// Checks if the country is part of a specific economic union.
-    pub fn is_in_economic_union(&self, union: &str) -> bool {
-        let union_lower = union.to_lowercase();
+    pub fn is_in_economic_union(&self, economic_union: &str) -> bool {
+        self.economic_unions.contains(&economic_union)
+    }
+
+    #[cfg(feature = "economic_unions")]
+    /// Checks if the country is part of a specific economic union.
+    pub fn is_in_economic_union_case_insensitive(&self, economic_union: &str) -> bool {
+        let economic_union_lower = economic_union.to_lowercase();
         self.economic_unions
             .iter()
-            .any(|&u| u.to_lowercase() == union_lower)
+            .any(|&u| u.to_lowercase() == economic_union_lower)
     }
 }
