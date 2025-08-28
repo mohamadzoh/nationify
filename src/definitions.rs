@@ -65,6 +65,9 @@ pub struct Country {
     #[cfg(feature = "distance_unit")]
     /// The distance unit used in the country.
     pub distance_unit: &'static str,
+    #[cfg(feature = "economic_unions")]
+    /// The economic unions the country is part of.
+    pub economic_unions: &'static [&'static str],
     #[cfg(feature = "gec")]
     /// The GEC (Geographic Encoding Class) code.
     pub gec: &'static str,
@@ -193,5 +196,20 @@ impl Country {
     pub fn is_region_or_subregion_case_insensitive(&self, region_or_subregion: &str) -> bool {
         self.region.to_lowercase() == region_or_subregion.to_lowercase()
             || self.subregion.to_lowercase() == region_or_subregion.to_lowercase()
+    }
+
+    #[cfg(feature = "economic_unions")]
+    /// Checks if the country is part of a specific economic union.
+    pub fn is_in_economic_union(&self, economic_union: &str) -> bool {
+        self.economic_unions.contains(&economic_union)
+    }
+
+    #[cfg(feature = "economic_unions")]
+    /// Checks if the country is part of a specific economic union.
+    pub fn is_in_economic_union_case_insensitive(&self, economic_union: &str) -> bool {
+        let economic_union_lower = economic_union.to_lowercase();
+        self.economic_unions
+            .iter()
+            .any(|&u| u.to_lowercase() == economic_union_lower)
     }
 }

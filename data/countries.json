@@ -6,6 +6,7 @@
     "country_code": "376",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AN",
     "geo": {
       "latitude": 42.506285,
@@ -67,6 +68,7 @@
     "country_code": "971",
     "currency_code": "AED",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AE",
     "geo": {
       "latitude": 23.424076,
@@ -131,6 +133,7 @@
     "country_code": "93",
     "currency_code": "AFN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AF",
     "geo": {
       "latitude": 33.93911,
@@ -194,6 +197,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AC",
     "geo": {
       "latitude": 17.060816,
@@ -255,6 +259,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AV",
     "geo": {
       "latitude": 18.220554,
@@ -312,6 +317,7 @@
     "country_code": "355",
     "currency_code": "ALL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AL",
     "geo": {
       "latitude": 41.153332,
@@ -374,6 +380,7 @@
     "country_code": "374",
     "currency_code": "AMD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AM",
     "geo": {
       "latitude": 40.069099,
@@ -435,6 +442,7 @@
     "country_code": "244",
     "currency_code": "AOA",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AO",
     "geo": {
       "latitude": -11.202692,
@@ -492,6 +500,7 @@
     "country_code": "672",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AY",
     "geo": {
       "latitude": -82.862752,
@@ -544,6 +553,7 @@
     "country_code": "54",
     "currency_code": "ARS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AR",
     "geo": {
       "latitude": -38.416097,
@@ -608,6 +618,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "AQ",
     "geo": {
       "latitude": -14.270972,
@@ -671,6 +682,9 @@
     "country_code": "43",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "AU",
     "geo": {
       "latitude": 47.516231,
@@ -739,6 +753,7 @@
     "country_code": "61",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AS",
     "geo": {
       "latitude": -25.274398,
@@ -800,6 +815,7 @@
     "country_code": "297",
     "currency_code": "AWG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AA",
     "geo": {
       "latitude": 12.52111,
@@ -857,6 +873,7 @@
     "country_code": "358",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "",
     "geo": {
       "latitude": 60.1785247,
@@ -912,6 +929,7 @@
     "country_code": "994",
     "currency_code": "AZN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AJ",
     "geo": {
       "latitude": 40.143105,
@@ -976,6 +994,7 @@
     "country_code": "387",
     "currency_code": "BAM",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BK",
     "geo": {
       "latitude": 43.915886,
@@ -1042,6 +1061,7 @@
     "country_code": "1",
     "currency_code": "BBD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BB",
     "geo": {
       "latitude": 13.193887,
@@ -1100,6 +1120,7 @@
     "country_code": "880",
     "currency_code": "BDT",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BG",
     "geo": {
       "latitude": 23.684994,
@@ -1158,6 +1179,9 @@
     "country_code": "32",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "BE",
     "geo": {
       "latitude": 50.503887,
@@ -1224,6 +1248,7 @@
     "country_code": "226",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UV",
     "geo": {
       "latitude": 12.238333,
@@ -1283,6 +1308,9 @@
     "country_code": "359",
     "currency_code": "BGN",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "BU",
     "geo": {
       "latitude": 42.733883,
@@ -1346,6 +1374,7 @@
     "country_code": "973",
     "currency_code": "BHD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BA",
     "geo": {
       "latitude": 26.0667,
@@ -1406,6 +1435,7 @@
     "country_code": "257",
     "currency_code": "BIF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BY",
     "geo": {
       "latitude": -3.373056,
@@ -1465,6 +1495,7 @@
     "country_code": "229",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BN",
     "geo": {
       "latitude": 9.30769,
@@ -1523,6 +1554,7 @@
     "country_code": "590",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TB",
     "geo": {
       "latitude": 17.9,
@@ -1577,6 +1609,7 @@
     "country_code": "1",
     "currency_code": "BMD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BD",
     "geo": {
       "latitude": 32.3078,
@@ -1636,6 +1669,7 @@
     "country_code": "673",
     "currency_code": "BND",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BX",
     "geo": {
       "latitude": 4.535277,
@@ -1693,6 +1727,7 @@
     "country_code": "591",
     "currency_code": "BOB",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BL",
     "geo": {
       "latitude": -16.290154,
@@ -1756,6 +1791,7 @@
     "country_code": "599",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "",
     "geo": {
       "latitude": 12.1783611,
@@ -1817,6 +1853,7 @@
     "country_code": "55",
     "currency_code": "BRL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BR",
     "geo": {
       "latitude": -14.235004,
@@ -1879,6 +1916,7 @@
     "country_code": "1",
     "currency_code": "BSD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "BF",
     "geo": {
       "latitude": 25.03428,
@@ -1936,6 +1974,7 @@
     "country_code": "975",
     "currency_code": "BTN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BT",
     "geo": {
       "latitude": 27.514162,
@@ -1996,6 +2035,7 @@
     "country_code": "47",
     "currency_code": "NOK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BV",
     "geo": {
       "latitude": -54.4207915,
@@ -2047,6 +2087,7 @@
     "country_code": "267",
     "currency_code": "BWP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BC",
     "geo": {
       "latitude": -22.328474,
@@ -2106,6 +2147,7 @@
     "country_code": "375",
     "currency_code": "BYN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BO",
     "geo": {
       "latitude": 53.709807,
@@ -2170,6 +2212,7 @@
     "country_code": "501",
     "currency_code": "BZD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "BH",
     "geo": {
       "latitude": 17.189877,
@@ -2230,6 +2273,7 @@
     "country_code": "1",
     "currency_code": "CAD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CA",
     "geo": {
       "latitude": 56.130366,
@@ -2291,6 +2335,7 @@
     "country_code": "61",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CK",
     "geo": {
       "latitude": -12.164165,
@@ -2350,6 +2395,7 @@
     "country_code": "243",
     "currency_code": "CDF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CG",
     "geo": {
       "latitude": -4.038333,
@@ -2422,6 +2468,7 @@
     "country_code": "236",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CT",
     "geo": {
       "latitude": 6.611110999999999,
@@ -2485,6 +2532,7 @@
     "country_code": "242",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CF",
     "geo": {
       "latitude": -0.228021,
@@ -2548,6 +2596,7 @@
     "country_code": "41",
     "currency_code": "CHF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SZ",
     "geo": {
       "latitude": 46.818188,
@@ -2616,6 +2665,7 @@
     "country_code": "225",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IV",
     "geo": {
       "latitude": 7.539988999999999,
@@ -2678,6 +2728,7 @@
     "country_code": "682",
     "currency_code": "NZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CW",
     "geo": {
       "latitude": -21.236736,
@@ -2739,6 +2790,7 @@
     "country_code": "56",
     "currency_code": "CLP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CI",
     "geo": {
       "latitude": -35.675147,
@@ -2798,6 +2850,7 @@
     "country_code": "237",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CM",
     "geo": {
       "latitude": 7.369721999999999,
@@ -2861,6 +2914,7 @@
     "country_code": "86",
     "currency_code": "CNY",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CH",
     "geo": {
       "latitude": 35.86166,
@@ -2923,6 +2977,7 @@
     "country_code": "57",
     "currency_code": "COP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CO",
     "geo": {
       "latitude": 4.570868,
@@ -2983,6 +3038,7 @@
     "country_code": "506",
     "currency_code": "CRC",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CS",
     "geo": {
       "latitude": 9.748916999999999,
@@ -3040,6 +3096,7 @@
     "country_code": "53",
     "currency_code": "CUP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CU",
     "geo": {
       "latitude": 21.521757,
@@ -3098,6 +3155,7 @@
     "country_code": "238",
     "currency_code": "CVE",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CV",
     "geo": {
       "latitude": 16.5388,
@@ -3159,6 +3217,7 @@
     "country_code": "599",
     "currency_code": "ANG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UC",
     "geo": {
       "latitude": 12.16957,
@@ -3216,6 +3275,7 @@
     "country_code": "61",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KT",
     "geo": {
       "latitude": -10.447525,
@@ -3275,6 +3335,9 @@
     "country_code": "357",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "CY",
     "geo": {
       "latitude": 35.126413,
@@ -3339,6 +3402,9 @@
     "country_code": "420",
     "currency_code": "CZK",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "EZ",
     "geo": {
       "latitude": 49.81749199999999,
@@ -3402,6 +3468,9 @@
     "country_code": "49",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "GM",
     "geo": {
       "latitude": 51.165691,
@@ -3471,6 +3540,7 @@
     "country_code": "253",
     "currency_code": "DJF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "DJ",
     "geo": {
       "latitude": 11.825138,
@@ -3532,6 +3602,9 @@
     "country_code": "45",
     "currency_code": "DKK",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "DA",
     "geo": {
       "latitude": 56.26392,
@@ -3593,6 +3666,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "DO",
     "geo": {
       "latitude": 15.414999,
@@ -3650,6 +3724,7 @@
     "country_code": "1",
     "currency_code": "DOP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "DR",
     "geo": {
       "latitude": 18.735693,
@@ -3711,6 +3786,7 @@
     "country_code": "213",
     "currency_code": "DZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "AG",
     "geo": {
       "latitude": 28.033886,
@@ -3773,6 +3849,7 @@
     "country_code": "593",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "EC",
     "geo": {
       "latitude": -1.831239,
@@ -3832,6 +3909,9 @@
     "country_code": "372",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "EN",
     "geo": {
       "latitude": 58.595272,
@@ -3892,6 +3972,7 @@
     "country_code": "20",
     "currency_code": "EGP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "EG",
     "geo": {
       "latitude": 26.820553,
@@ -3954,6 +4035,7 @@
     "country_code": "212",
     "currency_code": "MAD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "WI",
     "geo": {
       "latitude": 24.215527,
@@ -4013,6 +4095,7 @@
     "country_code": "291",
     "currency_code": "ERN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ER",
     "geo": {
       "latitude": 15.179384,
@@ -4076,6 +4159,9 @@
     "country_code": "34",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "SP",
     "geo": {
       "latitude": 40.46366700000001,
@@ -4145,6 +4231,7 @@
     "country_code": "251",
     "currency_code": "ETB",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ET",
     "geo": {
       "latitude": 9.145000000000001,
@@ -4206,6 +4293,9 @@
     "country_code": "358",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "FI",
     "geo": {
       "latitude": 61.92410999999999,
@@ -4268,6 +4358,7 @@
     "country_code": "679",
     "currency_code": "FJD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FJ",
     "geo": {
       "latitude": -17.713371,
@@ -4332,6 +4423,7 @@
     "country_code": "500",
     "currency_code": "FKP",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "FK",
     "geo": {
       "latitude": -51.796253,
@@ -4393,6 +4485,7 @@
     "country_code": "691",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FM",
     "geo": {
       "latitude": 7.425554,
@@ -4453,6 +4546,7 @@
     "country_code": "298",
     "currency_code": "DKK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FO",
     "geo": {
       "latitude": 61.89263500000001,
@@ -4514,6 +4608,9 @@
     "country_code": "33",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "FR",
     "geo": {
       "latitude": 46.227638,
@@ -4576,6 +4673,7 @@
     "country_code": "241",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GB",
     "geo": {
       "latitude": -0.803689,
@@ -4637,6 +4735,7 @@
     "country_code": "44",
     "currency_code": "GBP",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "UK",
     "geo": {
       "latitude": 55.378051,
@@ -4709,6 +4808,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "GJ",
     "geo": {
       "latitude": 12.1165,
@@ -4766,6 +4866,7 @@
     "country_code": "995",
     "currency_code": "GEL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GG",
     "geo": {
       "latitude": 42.315407,
@@ -4826,6 +4927,7 @@
     "country_code": "594",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FG",
     "geo": {
       "latitude": 3.933889,
@@ -4886,6 +4988,7 @@
     "country_code": "44",
     "currency_code": "GBP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GK",
     "geo": {
       "latitude": 49.4481982,
@@ -4945,6 +5048,7 @@
     "country_code": "233",
     "currency_code": "GHS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GH",
     "geo": {
       "latitude": 7.946527,
@@ -5005,6 +5109,7 @@
     "country_code": "350",
     "currency_code": "GIP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GI",
     "geo": {
       "latitude": 36.140751,
@@ -5062,6 +5167,7 @@
     "country_code": "299",
     "currency_code": "DKK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GL",
     "geo": {
       "latitude": 71.706936,
@@ -5122,6 +5228,7 @@
     "country_code": "220",
     "currency_code": "GMD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GA",
     "geo": {
       "latitude": 13.443182,
@@ -5179,6 +5286,7 @@
     "country_code": "224",
     "currency_code": "GNF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GV",
     "geo": {
       "latitude": 9.945587,
@@ -5240,6 +5348,7 @@
     "country_code": "590",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GP",
     "geo": {
       "latitude": 16.265,
@@ -5298,6 +5407,7 @@
     "country_code": "240",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "EK",
     "geo": {
       "latitude": 1.650801,
@@ -5361,6 +5471,9 @@
     "country_code": "30",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "GR",
     "geo": {
       "latitude": 39.074208,
@@ -5422,6 +5535,7 @@
     "country_code": "500",
     "currency_code": "GBP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SX",
     "geo": {
       "latitude": -54.429579,
@@ -5478,6 +5592,7 @@
     "country_code": "502",
     "currency_code": "GTQ",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GT",
     "geo": {
       "latitude": 15.783471,
@@ -5535,6 +5650,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "GQ",
     "geo": {
       "latitude": 13.444304,
@@ -5596,6 +5712,7 @@
     "country_code": "245",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PU",
     "geo": {
       "latitude": 11.803749,
@@ -5656,6 +5773,7 @@
     "country_code": "592",
     "currency_code": "GYD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "GY",
     "geo": {
       "latitude": 4.860416,
@@ -5714,6 +5832,7 @@
     "country_code": "852",
     "currency_code": "HKD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "HK",
     "geo": {
       "latitude": 22.3193039,
@@ -5774,6 +5893,7 @@
     "country_code": "672",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "HM",
     "geo": {
       "latitude": -53.08181,
@@ -5830,6 +5950,7 @@
     "country_code": "504",
     "currency_code": "HNL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "HO",
     "geo": {
       "latitude": 15.199999,
@@ -5888,6 +6009,9 @@
     "country_code": "385",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "HR",
     "geo": {
       "latitude": 45.1,
@@ -5950,6 +6074,7 @@
     "country_code": "509",
     "currency_code": "HTG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "HA",
     "geo": {
       "latitude": 18.971187,
@@ -6010,6 +6135,9 @@
     "country_code": "36",
     "currency_code": "HUF",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "HU",
     "geo": {
       "latitude": 47.162494,
@@ -6072,6 +6200,7 @@
     "country_code": "62",
     "currency_code": "IDR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ID",
     "geo": {
       "latitude": -0.789275,
@@ -6135,6 +6264,9 @@
     "country_code": "353",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "EI",
     "geo": {
       "latitude": 53.1423672,
@@ -6198,6 +6330,7 @@
     "country_code": "972",
     "currency_code": "ILS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IS",
     "geo": {
       "latitude": 31.046051,
@@ -6260,6 +6393,7 @@
     "country_code": "44",
     "currency_code": "GBP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IM",
     "geo": {
       "latitude": 54.236107,
@@ -6318,6 +6452,7 @@
     "country_code": "91",
     "currency_code": "INR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IN",
     "geo": {
       "latitude": 20.593684,
@@ -6379,6 +6514,7 @@
     "country_code": "246",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IO",
     "geo": {
       "latitude": -6.343194,
@@ -6434,6 +6570,7 @@
     "country_code": "964",
     "currency_code": "IQD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IZ",
     "geo": {
       "latitude": 33.223191,
@@ -6495,6 +6632,7 @@
     "country_code": "98",
     "currency_code": "IRR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IR",
     "geo": {
       "latitude": 32.427908,
@@ -6555,6 +6693,7 @@
     "country_code": "354",
     "currency_code": "ISK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "IC",
     "geo": {
       "latitude": 64.963051,
@@ -6618,6 +6757,9 @@
     "country_code": "39",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "IT",
     "geo": {
       "latitude": 41.87194,
@@ -6680,6 +6822,7 @@
     "country_code": "44",
     "currency_code": "GBP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "JE",
     "geo": {
       "latitude": 49.214439,
@@ -6735,6 +6878,7 @@
     "country_code": "1",
     "currency_code": "JMD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "JM",
     "geo": {
       "latitude": 18.109581,
@@ -6794,6 +6938,7 @@
     "country_code": "962",
     "currency_code": "JOD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "JO",
     "geo": {
       "latitude": 30.585164,
@@ -6857,6 +7002,7 @@
     "country_code": "81",
     "currency_code": "JPY",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "JA",
     "geo": {
       "latitude": 36.204824,
@@ -6917,6 +7063,7 @@
     "country_code": "254",
     "currency_code": "KES",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KE",
     "geo": {
       "latitude": -0.023559,
@@ -6977,6 +7124,7 @@
     "country_code": "996",
     "currency_code": "KGS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KG",
     "geo": {
       "latitude": 41.20438,
@@ -7041,6 +7189,7 @@
     "country_code": "855",
     "currency_code": "KHR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CB",
     "geo": {
       "latitude": 12.565679,
@@ -7102,6 +7251,7 @@
     "country_code": "686",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KR",
     "geo": {
       "latitude": -3.370417,
@@ -7159,6 +7309,7 @@
     "country_code": "269",
     "currency_code": "KMF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CN",
     "geo": {
       "latitude": -11.6455,
@@ -7221,6 +7372,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "SC",
     "geo": {
       "latitude": 17.357822,
@@ -7284,6 +7436,7 @@
     "country_code": "850",
     "currency_code": "KPW",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KN",
     "geo": {
       "latitude": 40.339852,
@@ -7349,6 +7502,7 @@
     "country_code": "82",
     "currency_code": "KRW",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KS",
     "geo": {
       "latitude": 35.907757,
@@ -7413,6 +7567,7 @@
     "country_code": "965",
     "currency_code": "KWD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KU",
     "geo": {
       "latitude": 29.31166,
@@ -7473,6 +7628,7 @@
     "country_code": "1",
     "currency_code": "KYD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "CJ",
     "geo": {
       "latitude": 19.3133,
@@ -7534,6 +7690,7 @@
     "country_code": "7",
     "currency_code": "KZT",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "KZ",
     "geo": {
       "latitude": 48.019573,
@@ -7596,6 +7753,7 @@
     "country_code": "856",
     "currency_code": "LAK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "LA",
     "geo": {
       "latitude": 19.85627,
@@ -7654,6 +7812,7 @@
     "country_code": "961",
     "currency_code": "LBP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "LE",
     "geo": {
       "latitude": 33.854721,
@@ -7717,6 +7876,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "ST",
     "geo": {
       "latitude": 13.909444,
@@ -7778,6 +7938,7 @@
     "country_code": "423",
     "currency_code": "CHF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "LS",
     "geo": {
       "latitude": 47.166,
@@ -7835,6 +7996,7 @@
     "country_code": "94",
     "currency_code": "LKR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CE",
     "geo": {
       "latitude": 7.873053999999999,
@@ -7894,6 +8056,7 @@
     "country_code": "231",
     "currency_code": "LRD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "LI",
     "geo": {
       "latitude": 6.428055,
@@ -7953,6 +8116,7 @@
     "country_code": "266",
     "currency_code": "LSL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "LT",
     "geo": {
       "latitude": -29.609988,
@@ -8012,6 +8176,9 @@
     "country_code": "370",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "LH",
     "geo": {
       "latitude": 55.169438,
@@ -8075,6 +8242,9 @@
     "country_code": "352",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "LU",
     "geo": {
       "latitude": 49.815273,
@@ -8138,6 +8308,9 @@
     "country_code": "371",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "LG",
     "geo": {
       "latitude": 56.879635,
@@ -8199,6 +8372,7 @@
     "country_code": "218",
     "currency_code": "LYD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "LY",
     "geo": {
       "latitude": 26.3351,
@@ -8263,6 +8437,7 @@
     "country_code": "212",
     "currency_code": "MAD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MO",
     "geo": {
       "latitude": 31.791702,
@@ -8324,6 +8499,7 @@
     "country_code": "377",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MN",
     "geo": {
       "latitude": 43.73841760000001,
@@ -8383,6 +8559,7 @@
     "country_code": "373",
     "currency_code": "MDL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MD",
     "geo": {
       "latitude": 47.411631,
@@ -8445,6 +8622,7 @@
     "country_code": "382",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MJ",
     "geo": {
       "latitude": 42.708678,
@@ -8509,6 +8687,7 @@
     "country_code": "590",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RN",
     "geo": {
       "latitude": 18.08255,
@@ -8567,6 +8746,7 @@
     "country_code": "261",
     "currency_code": "MGA",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MA",
     "geo": {
       "latitude": -18.766947,
@@ -8628,6 +8808,7 @@
     "country_code": "692",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RM",
     "geo": {
       "latitude": 7.131474,
@@ -8691,6 +8872,7 @@
     "country_code": "389",
     "currency_code": "MKD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MK",
     "geo": {
       "latitude": 41.608635,
@@ -8756,6 +8938,7 @@
     "country_code": "223",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ML",
     "geo": {
       "latitude": 17.570692,
@@ -8813,6 +8996,7 @@
     "country_code": "95",
     "currency_code": "MMK",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "BM",
     "geo": {
       "latitude": 21.916221,
@@ -8872,6 +9056,7 @@
     "country_code": "976",
     "currency_code": "MNT",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MG",
     "geo": {
       "latitude": 46.862496,
@@ -8935,6 +9120,7 @@
     "country_code": "853",
     "currency_code": "MOP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MC",
     "geo": {
       "latitude": 22.198745,
@@ -8995,6 +9181,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "CQ",
     "geo": {
       "latitude": 15.0979,
@@ -9058,6 +9245,7 @@
     "country_code": "596",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MB",
     "geo": {
       "latitude": 14.641528,
@@ -9116,6 +9304,7 @@
     "country_code": "222",
     "currency_code": "MRU",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MR",
     "geo": {
       "latitude": 21.00789,
@@ -9179,6 +9368,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MH",
     "geo": {
       "latitude": 16.742498,
@@ -9236,6 +9426,9 @@
     "country_code": "356",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "MT",
     "geo": {
       "latitude": 35.937496,
@@ -9296,6 +9489,7 @@
     "country_code": "230",
     "currency_code": "MUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MP",
     "geo": {
       "latitude": -20.348404,
@@ -9355,6 +9549,7 @@
     "country_code": "960",
     "currency_code": "MVR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MV",
     "geo": {
       "latitude": 3.202778,
@@ -9415,6 +9610,7 @@
     "country_code": "265",
     "currency_code": "MWK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MI",
     "geo": {
       "latitude": -13.254308,
@@ -9474,6 +9670,7 @@
     "country_code": "52",
     "currency_code": "MXN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MX",
     "geo": {
       "latitude": 23.634501,
@@ -9536,6 +9733,7 @@
     "country_code": "60",
     "currency_code": "MYR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MY",
     "geo": {
       "latitude": 4.210484,
@@ -9599,6 +9797,7 @@
     "country_code": "258",
     "currency_code": "MZN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MZ",
     "geo": {
       "latitude": -18.665695,
@@ -9658,6 +9857,7 @@
     "country_code": "264",
     "currency_code": "NAD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "WA",
     "geo": {
       "latitude": -22.95764,
@@ -9720,6 +9920,7 @@
     "country_code": "687",
     "currency_code": "XPF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NC",
     "geo": {
       "latitude": -20.904305,
@@ -9781,6 +9982,7 @@
     "country_code": "227",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NG",
     "geo": {
       "latitude": 17.607789,
@@ -9839,6 +10041,7 @@
     "country_code": "672",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NF",
     "geo": {
       "latitude": -29.040835,
@@ -9900,6 +10103,7 @@
     "country_code": "234",
     "currency_code": "NGN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NI",
     "geo": {
       "latitude": 9.081999,
@@ -9960,6 +10164,7 @@
     "country_code": "505",
     "currency_code": "NIO",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NU",
     "geo": {
       "latitude": 12.865416,
@@ -10017,6 +10222,9 @@
     "country_code": "31",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "NL",
     "geo": {
       "latitude": 52.132633,
@@ -10081,6 +10289,7 @@
     "country_code": "47",
     "currency_code": "NOK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NO",
     "geo": {
       "latitude": 60.47202399999999,
@@ -10144,6 +10353,7 @@
     "country_code": "977",
     "currency_code": "NPR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NP",
     "geo": {
       "latitude": 28.394857,
@@ -10208,6 +10418,7 @@
     "country_code": "674",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NR",
     "geo": {
       "latitude": -0.522778,
@@ -10267,6 +10478,7 @@
     "country_code": "683",
     "currency_code": "NZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NE",
     "geo": {
       "latitude": -19.054445,
@@ -10324,6 +10536,7 @@
     "country_code": "64",
     "currency_code": "NZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NZ",
     "geo": {
       "latitude": -40.900557,
@@ -10386,6 +10599,7 @@
     "country_code": "968",
     "currency_code": "OMR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MU",
     "geo": {
       "latitude": 21.4735329,
@@ -10445,6 +10659,7 @@
     "country_code": "507",
     "currency_code": "PAB",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PM",
     "geo": {
       "latitude": 8.537981,
@@ -10503,6 +10718,7 @@
     "country_code": "51",
     "currency_code": "PEN",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PE",
     "geo": {
       "latitude": -9.189967,
@@ -10563,6 +10779,7 @@
     "country_code": "689",
     "currency_code": "XPF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FP",
     "geo": {
       "latitude": -17.679742,
@@ -10624,6 +10841,7 @@
     "country_code": "675",
     "currency_code": "PGK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PP",
     "geo": {
       "latitude": -6.314992999999999,
@@ -10685,6 +10903,7 @@
     "country_code": "63",
     "currency_code": "PHP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RP",
     "geo": {
       "latitude": 12.879721,
@@ -10749,6 +10968,7 @@
     "country_code": "92",
     "currency_code": "PKR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PK",
     "geo": {
       "latitude": 30.375321,
@@ -10810,6 +11030,9 @@
     "country_code": "48",
     "currency_code": "PLN",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "PL",
     "geo": {
       "latitude": 51.919438,
@@ -10870,6 +11093,7 @@
     "country_code": "508",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SB",
     "geo": {
       "latitude": 46.8852,
@@ -10931,6 +11155,7 @@
     "country_code": "64",
     "currency_code": "NZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PC",
     "geo": {
       "latitude": -24.3767537,
@@ -10988,6 +11213,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RQ",
     "geo": {
       "latitude": 18.220833,
@@ -11047,6 +11273,7 @@
     "country_code": "970",
     "currency_code": "ILS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "WE",
     "geo": {
       "latitude": 31.952162,
@@ -11117,6 +11344,9 @@
     "country_code": "351",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "PO",
     "geo": {
       "latitude": 39.39987199999999,
@@ -11174,6 +11404,7 @@
     "country_code": "680",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PS",
     "geo": {
       "latitude": 7.514979999999999,
@@ -11231,6 +11462,7 @@
     "country_code": "595",
     "currency_code": "PYG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "PA",
     "geo": {
       "latitude": -23.442503,
@@ -11290,6 +11522,7 @@
     "country_code": "974",
     "currency_code": "QAR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "QA",
     "geo": {
       "latitude": 25.354826,
@@ -11349,6 +11582,7 @@
     "country_code": "262",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RE",
     "geo": {
       "latitude": -21.115141,
@@ -11408,6 +11642,9 @@
     "country_code": "40",
     "currency_code": "RON",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "RO",
     "geo": {
       "latitude": 45.943161,
@@ -11469,6 +11706,7 @@
     "country_code": "381",
     "currency_code": "RSD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RI",
     "geo": {
       "latitude": 44.016521,
@@ -11529,6 +11767,7 @@
     "country_code": "7",
     "currency_code": "RUB",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RS",
     "geo": {
       "latitude": 61.52401,
@@ -11592,6 +11831,7 @@
     "country_code": "250",
     "currency_code": "RWF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "RW",
     "geo": {
       "latitude": -1.940278,
@@ -11655,6 +11895,7 @@
     "country_code": "966",
     "currency_code": "SAR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SA",
     "geo": {
       "latitude": 23.885942,
@@ -11719,6 +11960,7 @@
     "country_code": "677",
     "currency_code": "SBD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "BP",
     "geo": {
       "latitude": -9.64571,
@@ -11780,6 +12022,7 @@
     "country_code": "248",
     "currency_code": "SCR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SE",
     "geo": {
       "latitude": -4.679574,
@@ -11840,6 +12083,7 @@
     "country_code": "249",
     "currency_code": "SDG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SU",
     "geo": {
       "latitude": 12.862807,
@@ -11903,6 +12147,9 @@
     "country_code": "46",
     "currency_code": "SEK",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "SW",
     "geo": {
       "latitude": 60.12816100000001,
@@ -11964,6 +12211,7 @@
     "country_code": "65",
     "currency_code": "SGD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SN",
     "geo": {
       "latitude": 1.352083,
@@ -12028,6 +12276,7 @@
     "country_code": "290",
     "currency_code": "SHP",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "SH",
     "geo": {
       "latitude": -24.1434812,
@@ -12090,6 +12339,9 @@
     "country_code": "386",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "SI",
     "geo": {
       "latitude": 46.151241,
@@ -12151,6 +12403,7 @@
     "country_code": "47",
     "currency_code": "NOK",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SV",
     "geo": {
       "latitude": 77.55360399999999,
@@ -12212,6 +12465,9 @@
     "country_code": "421",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [
+      "European Union"
+    ],
     "gec": "LO",
     "geo": {
       "latitude": 48.669026,
@@ -12273,6 +12529,7 @@
     "country_code": "232",
     "currency_code": "SLL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SL",
     "geo": {
       "latitude": 8.460555,
@@ -12330,6 +12587,7 @@
     "country_code": "378",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SM",
     "geo": {
       "latitude": 43.94236,
@@ -12391,6 +12649,7 @@
     "country_code": "221",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SG",
     "geo": {
       "latitude": 14.497401,
@@ -12449,6 +12708,7 @@
     "country_code": "252",
     "currency_code": "SOS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SO",
     "geo": {
       "latitude": 5.152149,
@@ -12511,6 +12771,7 @@
     "country_code": "597",
     "currency_code": "SRD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NS",
     "geo": {
       "latitude": 3.919305,
@@ -12569,6 +12830,7 @@
     "country_code": "211",
     "currency_code": "SSP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "OD",
     "geo": {
       "latitude": 6.876991899999999,
@@ -12630,6 +12892,7 @@
     "country_code": "239",
     "currency_code": "STD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TP",
     "geo": {
       "latitude": 0.18636,
@@ -12692,6 +12955,7 @@
     "country_code": "503",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ES",
     "geo": {
       "latitude": 13.794185,
@@ -12750,6 +13014,7 @@
     "country_code": "1",
     "currency_code": "ANG",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NN",
     "geo": {
       "latitude": 18.04248,
@@ -12809,6 +13074,7 @@
     "country_code": "963",
     "currency_code": "SYP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SY",
     "geo": {
       "latitude": 34.80207499999999,
@@ -12873,6 +13139,7 @@
     "country_code": "268",
     "currency_code": "SZL",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "WZ",
     "geo": {
       "latitude": -26.522503,
@@ -12934,6 +13201,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "TK",
     "geo": {
       "latitude": 21.694025,
@@ -12996,6 +13264,7 @@
     "country_code": "235",
     "currency_code": "XAF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "CD",
     "geo": {
       "latitude": 15.454166,
@@ -13059,6 +13328,7 @@
     "country_code": "262",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "FS",
     "geo": {
       "latitude": -49.280366,
@@ -13117,6 +13387,7 @@
     "country_code": "228",
     "currency_code": "XOF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TO",
     "geo": {
       "latitude": 8.619543,
@@ -13174,6 +13445,7 @@
     "country_code": "66",
     "currency_code": "THB",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TH",
     "geo": {
       "latitude": 15.870032,
@@ -13235,6 +13507,7 @@
     "country_code": "992",
     "currency_code": "TJS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TI",
     "geo": {
       "latitude": 38.861034,
@@ -13298,6 +13571,7 @@
     "country_code": "690",
     "currency_code": "NZD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TL",
     "geo": {
       "latitude": -9.200199999999999,
@@ -13357,6 +13631,7 @@
     "country_code": "670",
     "currency_code": "IDR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TT",
     "geo": {
       "latitude": -8.874217,
@@ -13418,6 +13693,7 @@
     "country_code": "993",
     "currency_code": "TMT",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TX",
     "geo": {
       "latitude": 38.969719,
@@ -13479,6 +13755,7 @@
     "country_code": "216",
     "currency_code": "TND",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TS",
     "geo": {
       "latitude": 33.886917,
@@ -13543,6 +13820,7 @@
     "country_code": "676",
     "currency_code": "TOP",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TN",
     "geo": {
       "latitude": -21.178986,
@@ -13604,6 +13882,7 @@
     "country_code": "90",
     "currency_code": "TRY",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TU",
     "geo": {
       "latitude": 38.963745,
@@ -13665,6 +13944,7 @@
     "country_code": "1",
     "currency_code": "TTD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TD",
     "geo": {
       "latitude": 10.691803,
@@ -13726,6 +14006,7 @@
     "country_code": "688",
     "currency_code": "AUD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TV",
     "geo": {
       "latitude": -7.109534999999999,
@@ -13783,6 +14064,7 @@
     "country_code": "886",
     "currency_code": "TWD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TW",
     "geo": {
       "latitude": 23.69781,
@@ -13844,6 +14126,7 @@
     "country_code": "255",
     "currency_code": "TZS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "TZ",
     "geo": {
       "latitude": -6.369028,
@@ -13906,6 +14189,7 @@
     "country_code": "380",
     "currency_code": "UAH",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UP",
     "geo": {
       "latitude": 48.379433,
@@ -13969,6 +14253,7 @@
     "country_code": "256",
     "currency_code": "UGX",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UG",
     "geo": {
       "latitude": 1.373333,
@@ -14029,6 +14314,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "",
     "geo": {
       "latitude": 19.2823192,
@@ -14086,6 +14372,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "US",
     "geo": {
       "latitude": 37.09024,
@@ -14149,6 +14436,7 @@
     "country_code": "598",
     "currency_code": "UYU",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UY",
     "geo": {
       "latitude": -32.522779,
@@ -14207,6 +14495,7 @@
     "country_code": "998",
     "currency_code": "UZS",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "UZ",
     "geo": {
       "latitude": 41.377491,
@@ -14269,6 +14558,7 @@
     "country_code": "39",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "VT",
     "geo": {
       "latitude": 41.902916,
@@ -14333,6 +14623,7 @@
     "country_code": "1",
     "currency_code": "XCD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "VC",
     "geo": {
       "latitude": 12.984305,
@@ -14396,6 +14687,7 @@
     "country_code": "58",
     "currency_code": "VES",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "VE",
     "geo": {
       "latitude": 6.42375,
@@ -14453,6 +14745,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "VI",
     "geo": {
       "latitude": 18.420695,
@@ -14515,6 +14808,7 @@
     "country_code": "1",
     "currency_code": "USD",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "VQ",
     "geo": {
       "latitude": 18.335765,
@@ -14579,6 +14873,7 @@
     "country_code": "84",
     "currency_code": "VND",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "VM",
     "geo": {
       "latitude": 14.058324,
@@ -14640,6 +14935,7 @@
     "country_code": "678",
     "currency_code": "VUV",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "NH",
     "geo": {
       "latitude": -15.376706,
@@ -14703,6 +14999,7 @@
     "country_code": "681",
     "currency_code": "XPF",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "WF",
     "geo": {
       "latitude": -14.2938,
@@ -14764,6 +15061,7 @@
     "country_code": "685",
     "currency_code": "WST",
     "distance_unit": "MI",
+    "economic_unions": [],
     "gec": "WS",
     "geo": {
       "latitude": -13.759029,
@@ -14824,6 +15122,7 @@
     "country_code": "967",
     "currency_code": "YER",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "YM",
     "geo": {
       "latitude": 15.552727,
@@ -14886,6 +15185,7 @@
     "country_code": "262",
     "currency_code": "EUR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "MF",
     "geo": {
       "latitude": -12.8275,
@@ -14943,6 +15243,7 @@
     "country_code": "27",
     "currency_code": "ZAR",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "SF",
     "geo": {
       "latitude": -30.559482,
@@ -15022,6 +15323,7 @@
     "country_code": "260",
     "currency_code": "ZMW",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ZA",
     "geo": {
       "latitude": -13.133897,
@@ -15081,6 +15383,7 @@
     "country_code": "263",
     "currency_code": "USD",
     "distance_unit": "KM",
+    "economic_unions": [],
     "gec": "ZI",
     "geo": {
       "latitude": -19.015438,

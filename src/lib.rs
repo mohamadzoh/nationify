@@ -80,6 +80,18 @@ pub fn regions() -> Vec<&'static str> {
     unique_regions.into_iter().collect()
 }
 
+#[cfg(feature = "economic_unions")]
+/// Return list of all economic unions.
+pub fn economic_unions() -> Vec<&'static str> {
+    let mut unions = HashSet::new();
+    for country in COUNTRIES.iter() {
+        for &union in country.economic_unions {
+            unions.insert(union);
+        }
+    }
+    unions.into_iter().collect()
+}
+
 #[cfg(feature = "region")]
 /// Return list of all countries in a specific region.
 pub fn by_region(region: &str) -> Vec<&'static Country> {
@@ -126,6 +138,21 @@ pub fn by_region_or_subregion_case_insensitive(region_or_subregion: &str) -> Vec
         .filter(|country| {
             country.region.to_lowercase() == region_or_subregion.to_lowercase()
                 || country.subregion.to_lowercase() == region_or_subregion.to_lowercase()
+        })
+        .collect()
+}
+
+#[cfg(feature = "economic_unions")]
+/// Return list of all countries in a specific economic union.
+pub fn by_economic_union(union: &str) -> Vec<&'static Country> {
+    let union_lower = union.to_lowercase();
+    COUNTRIES
+        .iter()
+        .filter(|country| {
+            country
+                .economic_unions
+                .iter()
+                .any(|&u| u.to_lowercase() == union_lower)
         })
         .collect()
 }
@@ -268,6 +295,24 @@ mod tests {
     pub fn test_by_continent() {
         let countries = by_continent("Europe");
         assert_eq!(countries.len(), 52);
+    }
+
+    #[cfg(feature = "economic_unions")]
+    // Test that the `economic_unions` function returns an array of all economic unions
+    #[test]
+    pub fn test_economic_unions() {
+        let unions = economic_unions();
+        assert!(!unions.is_empty());
+        assert!(unions.contains(&"European Union"));
+    }
+
+    #[cfg(feature = "economic_unions")]
+    // Test that the `by_economic_union` function returns an array of countries by economic union
+    #[test]
+    pub fn test_by_economic_union() {
+        let countries = by_economic_union("European Union");
+        assert!(!countries.is_empty());
+        assert!(countries.iter().any(|c| c.iso_short_name == "Belgium"));
     }
 
     // testing country functions
