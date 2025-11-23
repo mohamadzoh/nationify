@@ -1,6 +1,6 @@
 [package]
 name = "nationify"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2024"
 authors = ["Mohamad Al Zohbie <alzoubi528@gmail.com>"]
 repository = "https://github.com/mohamadzoh/nationify"
@@ -49,7 +49,8 @@ default = [
   "unofficial_names",
   "world_region",
   "serde",
-  "phf"
+  "phf",
+  "ports"
 ]
 
 # Enables Serde serialization of definitions.
@@ -114,3 +115,5 @@ un_locode = []
 unofficial_names = []
 # The world region the country is located in.
 world_region = []
+# Ports information and lookup functionality.
+ports = []

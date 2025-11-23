@@ -50,6 +50,7 @@ The `nationify` crate provides the following features - by default all are enabl
 - **un_locode** - The UN/LOCODE of the country.
 - **unofficial_names** - The unofficial names of the country.
 - **world_region** - The world region the country is located in.
+- **ports** - Ports information and lookup functionality.
 
 ---
 
@@ -176,7 +177,131 @@ fn main() {
 
 ---
 
-### 8. Additional Country Metadata
+### 8. Ports - Comprehensive Port Database & Search
+
+Access a comprehensive database of **1,609 ports** across **185 countries** with rich search and filtering capabilities.
+
+#### Port Database Statistics
+- **Total Ports:** 1,609
+- **Countries:** 185
+- **Cities:** 1,567
+- **Timezones:** 221
+
+#### Basic Port Queries
+
+```rust
+use nationify::*;
+
+// Get all ports
+let all = all_ports();
+println!("Total ports: {}", all.len());
+
+// Get port statistics
+let stats = port_statistics();
+println!("Countries with ports: {}", stats.total_countries);
+
+// Get unique lists
+let countries = port_countries();  // All countries with ports
+let cities = port_cities();        // All cities with ports
+let timezones = port_timezones();  // All timezones
+```
+
+#### Find Closest Ports
+
+```rust
+// Find nearest port to coordinates
+if let Some(port) = closest_port(25.2048, 55.2708) {
+    println!("Closest: {}", port.display_name());
+    println!("Distance: {:.2} km", port.distance_to(25.2048, 55.2708));
+    println!("Distance: {:.2} nm", port.distance_to_nautical_miles(25.2048, 55.2708));
+}
+
+// Find N closest ports
+let nearest = closest_ports(40.7128, -74.0060, 5);
+for port in nearest {
+    println!("{}", port.display_name());
+}
+```
+
+#### Search and Filter Ports
+
+```rust
+// Search by country, city, name
+let uae_ports = ports_by_country("United Arab Emirates");
+let dubai_ports = ports_by_city("Dubai");
+let named_ports = ports_by_name("Singapore");
+
+// Search by state/timezone
+let ca_ports = ports_by_state("California");
+let tz_ports = ports_by_timezone("Asia/Dubai");
+
+// Find by codes
+let port = port_by_unloc("AEDXB").unwrap();
+let port = port_by_code("52005").unwrap();
+
+// General search (searches name, city, code, unlocs)
+let results = search_ports("Singapore");
+```
+
+#### Geographic Queries
+
+```rust
+// Find ports within radius (km)
+let nearby = ports_within_radius(1.3521, 103.8198, 100.0);
+
+// Find ports in bounding box
+let bbox_ports = ports_in_bounding_box(30.0, 45.0, -5.0, 40.0);
+
+// Find ports by region
+let regional = ports_by_region("Southeast Asia");
+```
+
+#### Port Methods & Filtering
+
+```rust
+let port = closest_port(25.2048, 55.2708).unwrap();
+
+// Distance calculations
+port.distance_to(lat, lng);                // Kilometers
+port.distance_to_nautical_miles(lat, lng); // Nautical miles
+port.distance_to_miles(lat, lng);          // Miles
+
+// Field matching (case-insensitive)
+port.matches_code("AEDXB");
+port.matches_city("Dubai");
+port.matches_country("United Arab Emirates");
+port.matches_state("Dubai");
+port.matches_name("Dubai");
+port.matches_timezone("Asia/Dubai");
+
+// Other helpers
+port.has_unloc("AEDXB");
+port.has_alias("alternate_name");
+port.serves_region("Middle East");
+port.display_name();  // "Port Name, City, Country"
+port.matches_search("dub");
+
+// Use in filters for cleaner code
+let results: Vec<_> = all_ports()
+    .iter()
+    .filter(|p| p.matches_country("United States") && 
+                p.matches_city("New York"))
+    .collect();
+```
+
+#### Count Operations
+
+```rust
+// Total count
+let total = ports_count();
+
+// Count by country
+let us_count = ports_count_by_country("United States");
+```
+
+---
+
+### 9. Additional Country Metadata
 
 Access detailed metadata for countries.
 
@@ -218,9 +343,143 @@ pub struct Country<'a> {
 }
 ```
 
+### `Port`
+
+The `Port` struct provides comprehensive details about ports worldwide.
+
+```rust
+#[derive(Debug, Clone, PartialEq)]
+pub struct Port {
+    pub name: &'static str,           // Port name
+    pub city: &'static str,           // City
+    pub state: &'static str,          // State/province
+    pub country: &'static str,        // Country
+    pub latitude: f64,                // Latitude
+    pub longitude: f64,               // Longitude
+    pub timezone: &'static str,       // Timezone (e.g., "Asia/Dubai")
+    pub unlocs: &'static [&'static str],  // UN/LOCODE codes
+    pub code: &'static str,           // Port code
+    pub port_code: &'static str,      // Primary port code
+    pub alias: &'static [&'static str],   // Alternative names
+    pub regions: &'static [&'static str], // Regions served
+}
+```
+
+**Port Methods:**
+- `distance_to(lat, lng) -> f64` - Distance in kilometers
+- `distance_to_nautical_miles(lat, lng) -> f64` - Distance in nautical miles
+- `distance_to_miles(lat, lng) -> f64` - Distance in miles
+- `has_unloc(code) -> bool` - Check if port has UNLOC code
+- `has_alias(name) -> bool` - Check if port has alias
+- `serves_region(region) -> bool` - Check if serves region
+- `display_name() -> String` - Formatted "Name, City, Country"
+- `matches_search(query) -> bool` - Check if matches search query
+- `matches_code(code) -> bool` - Check if matches port code (case-insensitive)
+- `matches_city(city) -> bool` - Check if matches city (case-insensitive)
+- `matches_country(country) -> bool` - Check if matches country (case-insensitive)
+- `matches_state(state) -> bool` - Check if matches state (case-insensitive)
+- `matches_name(name) -> bool` - Check if matches name (case-insensitive)
+- `matches_timezone(tz) -> bool` - Check if matches timezone (case-insensitive)
+
+**Available Port Functions:**
+- `all_ports()` - Get all ports
+- `closest_port(lat, lng)` - Find nearest port
+- `closest_ports(lat, lng, n)` - Find N nearest ports
+- `ports_by_country(country)` - Filter by country
+- `ports_by_city(city)` - Filter by city
+- `ports_by_name(name)` - Filter by name
+- `ports_by_state(state)` - Filter by state
+- `ports_by_timezone(tz)` - Filter by timezone
+- `port_by_unloc(code)` - Find by UNLOC code
+- `port_by_code(code)` - Find by port code
+- `search_ports(query)` - General search
+- `ports_within_radius(lat, lng, km)` - Within radius
+- `ports_in_bounding_box(...)` - In bounding box
+- `ports_by_region(region)` - By region
+- `port_countries()` - List all countries
+- `port_cities()` - List all cities
+- `port_timezones()` - List all timezones
+- `ports_count()` - Total count
+- `ports_count_by_country(country)` - Count by country
+- `port_statistics()` - Full statistics
+
 ### `Geo` and `Bounds`
 
 Geographical data includes latitude, longitude, and boundary information.
+
+---
+
+## Ports API Reference
+
+### Port Database Overview
+- **Total Ports:** 1,609
+- **Countries:** 185  
+- **Cities:** 1,567
+- **Timezones:** 221
+
+### Available Functions
+
+#### Core Functions
+- `all_ports()` - Get all 1,609 ports
+- `closest_port(lat, lng)` - Find nearest port
+- `closest_ports(lat, lng, n)` - Find N nearest ports
+- `ports_count()` - Total port count
+
+#### Search Functions
+- `ports_by_country(country)` - Filter by country
+- `ports_by_city(city)` - Filter by city
+- `ports_by_name(name)` - Filter by port name
+- `ports_by_state(state)` - Filter by state/province
+- `ports_by_timezone(tz)` - Filter by timezone
+- `ports_by_region(region)` - Filter by served region
+- `search_ports(query)` - General search across fields
+
+#### Lookup Functions
+- `port_by_unloc(code)` - Find by UN/LOCODE
+- `port_by_code(code)` - Find by port code
+
+#### Geographic Functions
+- `ports_within_radius(lat, lng, km)` - Find within radius
+- `ports_in_bounding_box(min_lat, max_lat, min_lng, max_lng)` - Find in bounding box
+
+#### Aggregation Functions
+- `port_countries()` - List all countries with ports
+- `port_cities()` - List all cities with ports
+- `port_timezones()` - List all timezones
+- `ports_count_by_country(country)` - Count by country
+- `port_statistics()` - Get comprehensive statistics
+
+### Port Methods
+
+All `matches_*` methods are **case-insensitive** for easier filtering:
+
+**Distance Calculations:**
+- `distance_to(lat, lng) -> f64` - Kilometers
+- `distance_to_nautical_miles(lat, lng) -> f64` - Nautical miles
+- `distance_to_miles(lat, lng) -> f64` - Miles
+
+**Field Matching:**
+- `matches_code(code) -> bool` - Match port code
+- `matches_city(city) -> bool` - Match city
+- `matches_country(country) -> bool` - Match country
+- `matches_state(state) -> bool` - Match state
+- `matches_name(name) -> bool` - Match name
+- `matches_timezone(tz) -> bool` - Match timezone
+
+**Other Methods:**
+- `has_unloc(code) -> bool` - Check for UNLOC code
+- `has_alias(name) -> bool` - Check for alias
+- `serves_region(region) -> bool` - Check if serves region
+- `display_name() -> String` - Returns "Name, City, Country"
+- `matches_search(query) -> bool` - General search
+
+### Testing
+
+Run the comprehensive test suite (52 tests):
+```bash
+cargo test --features ports
+cargo test --all-features
+```
 
 ---
 

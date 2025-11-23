@@ -133,6 +133,129 @@ pub struct Country {
     pub world_region: &'static str,
 }
 
+/// Port information.
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(serde::Serialize))]
+pub struct Port {
+    /// The name of the port.
+    pub name: &'static str,
+    /// The city where the port is located.
+    pub city: &'static str,
+    /// The state or region where the port is located.
+    pub state: &'static str,
+    /// The country where the port is located.
+    pub country: &'static str,
+    /// The latitude of the port.
+    pub latitude: f64,
+    /// The longitude of the port.
+    pub longitude: f64,
+    /// The timezone of the port.
+    pub timezone: &'static str,
+    /// UN/LOCODE codes for the port.
+    pub unlocs: &'static [&'static str],
+    /// Port code.
+    pub code: &'static str,
+    /// Port UNLOC code.
+    pub port_code: &'static str,
+    /// Aliases for the port name.
+    pub alias: &'static [&'static str],
+    /// Regions the port serves.
+    pub regions: &'static [&'static str],
+}
+
+impl Port {
+    /// Calculate the Haversine distance in kilometers between this port and the given coordinates.
+    pub fn distance_to(&self, latitude: f64, longitude: f64) -> f64 {
+        haversine_distance(self.latitude, self.longitude, latitude, longitude)
+    }
+
+    /// Calculate the Haversine distance in nautical miles between this port and the given coordinates.
+    pub fn distance_to_nautical_miles(&self, latitude: f64, longitude: f64) -> f64 {
+        self.distance_to(latitude, longitude) * 0.539957
+    }
+
+    /// Calculate the Haversine distance in miles between this port and the given coordinates.
+    pub fn distance_to_miles(&self, latitude: f64, longitude: f64) -> f64 {
+        self.distance_to(latitude, longitude) * 0.621371
+    }
+
+    /// Check if the port has a specific UNLOC code.
+    pub fn has_unloc(&self, unloc: &str) -> bool {
+        self.unlocs.iter().any(|&u| u.eq_ignore_ascii_case(unloc))
+    }
+
+    /// Check if the port has any alias matching the given name.
+    pub fn has_alias(&self, alias: &str) -> bool {
+        self.alias.iter().any(|&a| a.eq_ignore_ascii_case(alias))
+    }
+
+    /// Check if the port serves a specific region.
+    pub fn serves_region(&self, region: &str) -> bool {
+        self.regions.iter().any(|&r| r.eq_ignore_ascii_case(region))
+    }
+
+    /// Get the full display name of the port (name, city, country).
+    pub fn display_name(&self) -> String {
+        format!("{}, {}, {}", self.name, self.city, self.country)
+    }
+
+    /// Check if the port matches a search query (searches name, city, code, unlocs).
+    pub fn matches_search(&self, query: &str) -> bool {
+        let query_lower = query.to_lowercase();
+        self.name.to_lowercase().contains(&query_lower)
+            || self.city.to_lowercase().contains(&query_lower)
+            || self.code.to_lowercase().contains(&query_lower)
+            || self.port_code.to_lowercase().contains(&query_lower)
+            || self.unlocs.iter().any(|&u| u.to_lowercase().contains(&query_lower))
+    }
+
+    /// Check if the port's code matches the given code (case-insensitive).
+    pub fn matches_code(&self, code: &str) -> bool {
+        self.code.eq_ignore_ascii_case(code) || self.port_code.eq_ignore_ascii_case(code)
+    }
+
+    /// Check if the port's city matches the given city (case-insensitive).
+    pub fn matches_city(&self, city: &str) -> bool {
+        self.city.eq_ignore_ascii_case(city)
+    }
+
+    /// Check if the port's country matches the given country (case-insensitive).
+    pub fn matches_country(&self, country: &str) -> bool {
+        self.country.eq_ignore_ascii_case(country)
+    }
+
+    /// Check if the port's state matches the given state (case-insensitive).
+    pub fn matches_state(&self, state: &str) -> bool {
+        self.state.eq_ignore_ascii_case(state)
+    }
+
+    /// Check if the port's name matches the given name (case-insensitive).
+    pub fn matches_name(&self, name: &str) -> bool {
+        self.name.eq_ignore_ascii_case(name)
+    }
+
+    /// Check if the port's timezone matches the given timezone (case-insensitive).
+    pub fn matches_timezone(&self, timezone: &str) -> bool {
+        self.timezone.eq_ignore_ascii_case(timezone)
+    }
+}
+
+/// Calculate the Haversine distance in kilometers between two points on Earth.
+pub fn haversine_distance(lat1: f64, lon1: f64, lat2: f64, lon2: f64) -> f64 {
+    const EARTH_RADIUS_KM: f64 = 6371.0;
+
+    let lat1_rad = lat1.to_radians();
+    let lat2_rad = lat2.to_radians();
+    let delta_lat = (lat2 - lat1).to_radians();
+    let delta_lon = (lon2 - lon1).to_radians();
+
+    let a = (delta_lat / 2.0).sin().powi(2)
+        + lat1_rad.cos() * lat2_rad.cos() * (delta_lon / 2.0).sin().powi(2);
+    let c = 2.0 * a.sqrt().atan2((1.0 - a).sqrt());
+
+    EARTH_RADIUS_KM * c
+}
+
 impl Country {
     #[cfg(feature = "languages_official")]
     /// Checks if a language is an official language of the country.
