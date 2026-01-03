@@ -374,10 +374,11 @@ fn main() {
     // PHF map for iso_code
     if feature("phf") && feature("iso_code") {
         let mut map = phf_codegen::Map::new();
-        for (i, c) in raw.iter().enumerate() {
-            if let Some(code) = &c.iso_code {
-                map.entry(code, &i.to_string());
-            }
+        let entries: Vec<_> = raw.iter().enumerate()
+            .filter_map(|(i, c)| c.iso_code.as_ref().map(|code| (code.clone(), i.to_string())))
+            .collect();
+        for (code, idx) in &entries {
+            map.entry(code, idx);
         }
         out.push_str("#[cfg(feature = \"iso_code\")]\n");
         out.push_str("pub static ISO_CODE_INDEX: phf::Map<&'static str, usize> = ");
