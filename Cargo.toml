@@ -7,6 +7,7 @@ repository = "https://github.com/mohamadzoh/nationify"
 description = "A library that provide information about countries"
 license = "MIT"
 keywords = ["locale", "iso", "iso-3166", "countrycode", "region"]
+categories = ["internationalization", "database"]
 
 [build-dependencies]
 serde = { version = "1", features = ["derive"] }
